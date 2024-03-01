@@ -1,5 +1,5 @@
 //Обработчик на запуск рабочего дня
-
+<?php
 AddEventHandler("timeman", "OnAfterTMDayStart", "startWorkDay");
 
 function startWorkDay()
@@ -27,3 +27,4 @@ function startWorkDay()
 		}
 	};
 }
+?>
